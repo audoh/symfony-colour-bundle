@@ -3,8 +3,8 @@ A bundle written for Symfony 2.8 containing Twig filters to add and subtract hex
 
 ## Usage
 
-colour1|addColour(colour2)
-colour1|subColour(colour2)
+<code>colour1|addColour(colour2)</code>
+<code>colour1|subColour(colour2)</code>
 
 ## Limitations
 
