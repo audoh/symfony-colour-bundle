@@ -4,11 +4,11 @@ A bundle written for Symfony 2.8 containing Twig filters to add and subtract hex
 ## Installation
 
 Put the bundle in your src folder, and add the following line to your services.yml:
-<code>kookas.colour_calc:
+<pre>kookas.colour_calc:
         class: Kookas\ColourBundle\Twig\ColourCalc
         public: false
         tags:
-            - { name: twig.extension }</code>
+            - { name: twig.extension }</pre>
 
 Then include the bundle in your app/AppKernel.php file, as usual.
 
